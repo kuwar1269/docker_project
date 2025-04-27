@@ -22,19 +22,16 @@ It allows users to make predictions through a simple web interface.
 
 ## 📄 How to Run the Project
 
-### 1. Clone the Repository
-```bash
-git clone https://github.com/kuwar1269/docker_project.git
-cd docker_project/3.StreamlitModel_Docker
-2. Build Docker Image
+
+1. Build Docker Image
 bash
 Copy code
 docker build -t streamlit-ml-app .
-3. Run Docker Container
+2. Run Docker Container
 bash
 Copy code
 docker run -p 8501:8501 streamlit-ml-app
-4. Access the App
+3. Access the App
 Open your browser and go to http://localhost:8501.
 
 📸 Features
