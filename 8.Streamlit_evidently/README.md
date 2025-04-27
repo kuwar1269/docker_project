@@ -35,14 +35,9 @@ Before we begin, ensure you have the following installed on your system:
 
 ## Installation 🛠️
 
-### Step 1: Clone the Repository
 
-Clone the Evidently repository to your local machine:
-```bash
-git clone git@github.com:evidentlyai/evidently.git
-cd evidently/examples/integrations/streamlit-dashboard
 
-Step 2: Create a Virtual Environment
+Step 1: Create a Virtual Environment
 
 Create a virtual environment named .venv and activate it:
 
@@ -53,14 +48,14 @@ source .venv/bin/activate
 
 Note: Ensure you are using Python >= 3.9.12. Streamlit version 1.19.0 is incompatible with Python 3.9.7.
 
-Step 3: Install Dependencies
+Step 2: Install Dependencies
 
 Install the required Python libraries:
 
 ```bash
 pip install -r requirements.txt
 ```
-Step 4: Set Up Jupyter Notebook
+Step 3: Set Up Jupyter Notebook
 
 Install the Jupyter kernel and extensions:
 
